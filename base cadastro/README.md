@@ -2,9 +2,11 @@
 <h3 align="center">Projeto de criação de Landing Page com formulário de cadastro.</h3>
 
 <h1 align="center"> Sobre o Projeto</h1>
-<h3 align="center"> Esse projeto desenvolvido tem como propósito apresentar uma página de cadastro de Doadores de Sangue.
+<h3 align="center"> Esse projeto desenvolvido tem como propósito apresentar uma página de cadastro para Doadores de Sangue.
 
-<p align="center">Ao realizar o cadastro o dodador podera infomar dados como: (Grupo Sanguíneo e Fator Rh), Além de nome,email e senha de acesso.</p>
+<p align="center">Ao realizar o cadastro o dodador poderá infomar dados como: (Grupo Sanguíneo e Fator Rh), Além de nome,email e senha de acesso.</p>
+<br>
+<h3 align="center"> O fomúlario estará sendo validado pelo JavaScript. Que tornará os campos (Nome,Email, Senhar). A serem obrigatórios.
 
 <img align="center" src="page.jpg">
 
