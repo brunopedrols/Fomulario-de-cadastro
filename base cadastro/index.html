@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cadrastro de Doadores</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="primary">
+      <img class="secondary" src="Logo.png" alt="Doador Legal">
+    </header>
+
+    <main class="meio">
+      <section class="form-section-primary">
+        <h1 class="text-1">Cadastro de Doadores</h1>
+        <div class="Imagem 1">
+        <img class="Imagem-center" src="Doador+.png" alt="arte">
+        </div>
+      </section>
+      <section class="form-section">
+        <div class="form-wrapper">
+          <form name="validation" >
+            <div class="input-block">
+              <label for="name">Informe seu nome</label>
+              <input type="text" id="name" name="name">
+            </div>
+            <div  class="input-block">
+              <label for="group">Grupo Sanguíneo</label>
+              <select name="group" id="group" >
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="O">O</option>
+                <option value="AB">AB</option>
+                <option value="null">Outros</option>
+              </select>
+            <div class="input-block1">
+               <h6>Fator Rh:</h6>                     
+              <input type="radio" name="Rh" value="+"> +
+              <input type="radio" name="Rh" value="-"> -
+            </div>
+            </div>
+            <div class="input-block">
+              <label for="login-email">Email</label>
+              <input type="email" id="login-email" name="email" />
+            </div>
+            <div class="input-block">
+              <label for="login-password">Senha</label>
+              <input type="password" id="login-password" name="password" />
+            </div>
+            <button type="submit" class="btn-login" onclick="dice()">Cadastrar</button>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <section class="feed">
+          <h1 class="end">Saiba Mais</h1>
+            <a class="hyper" href="https://www.cnnbrasil.com.br/saude/apenas-19-dos-brasileiros-doam-sangue-regularmente-diz-pesquisa/" target="_blank">Apenas 19% dos brasileiros doam sangue regularmente, diz pesquisa.</a>
+            <a class="hyper" href="https://www.cnnbrasil.com.br/saude/inca-alerta-para-baixo-estoque-de-sangue-e-faz-apelo-a-populacao-por-doacao/" target="_blank">Inca alerta para baixo estoque de sangue e faz apelo à população por doação.</a>
+            <a class="hyper" href="https://www.cnnbrasil.com.br/internacional/recordista-em-doacao-de-sangue-e-homenageado-por-doar-120-galoes/" target="_blank">Homem é homenageado por recorde ao doar 120 galões de sangue nos EUA.</a>
+        </section>
+        <section class="end-1">
+          <a href="https://www.linkedin.com/in/bruno-pedro-823606b6/" target="_blank"><img class="end-2" src="Assinatura.png" alt="Bruno Pedro"></a>
+        </section>
+      </footer>
+    </main>
+      <ul class="squares"></ul>
+      <script src="script.js"></script>
+  </body>
+</html>
