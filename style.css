@@ -5,15 +5,16 @@
   margin: 0;
   padding: 0;
 }
-
-.primary {
+header {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   height: auto;
-  margin: 40px;
+  margin: 30px;
   overflow: hidden;
 
 }
-.secondary {
- width: 200px;
+.image {
+ width: 12.5rem;
  margin-left: 100px;
  border-radius: 350px;
  max-width: 100%;
@@ -23,35 +24,38 @@
 
 }
 
-.secondary:hover{
+.image:hover{
   -moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
 
-html,
-body {
-  height: 100vh;
-}
-
 body {
   background: linear-gradient(68.15deg, #ce5e70 0%, #7eb4b8 85.61%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: Roboto, Arial, sans-serif;
   
 }
 
-.meio {
+main {
   border-top: 1px solid white;
-  margin-bottom: 48px;
+  margin-bottom: 20px;
   height: auto;
+  padding: auto;
 }
+
+.form-section-primary{
+  margin-left: 40px;
+}
+
 .text-1{
   margin-top: 50px;
   display: flex;
-  margin-left: 140px;
+  margin-left: 3.125rem;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 55px;
-  -webkit-text-stroke-width: 2.50px;
+  font-size: 3.438rem;
+  -webkit-text-stroke-width: 0.2rem;
   -webkit-text-stroke-color:rgb(71, 64, 71);
 }
 section {
@@ -62,26 +66,27 @@ section {
 }
 
 .form-section {
-  margin-left: 160px;
+  margin-left: 0px;
 }
 
-.imagem1 {
+.Image1 {
   display: inline-block ;
   flex-direction: column;
   justify-content: right;
   overflow: hidden;
 }
-.Imagem-center{
-  margin-left: 200px;
+.Image-center{
   margin-top: 140px;
-  width: 450px;
+  margin-left: 58px;
+  width: 28.125rem;
   max-width: 100%;
 	-moz-transition: all 0.3s;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
+  padding: 0px 20px 0px 20px;
 }
 
-.Imagem-center:hover{
+.Image-center:hover{
   -moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
@@ -160,8 +165,6 @@ form .btn-login:hover{
 .feed {
   text-align: center;
   margin-top: 175px;
-  margin-left: 150px;
-  
 }
 
 .end {
@@ -179,11 +182,12 @@ form .btn-login:hover{
   color: aliceblue;
 }
 .end-1 {
-  margin-left: 1350px;
+  left:96.875rem ;
   margin-top: 120px;
+  margin-left: 5rem;
 }
 .end-2 {
-  width: 100px;
+  width: 6.25rem;
   border-radius: 320px; 
 }
 
